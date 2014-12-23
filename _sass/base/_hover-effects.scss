@@ -78,10 +78,11 @@ figure.effect-romeo {
 }
 
 figure.effect-romeo img {
+	opacity: 0.8;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,0,300px);
-	transform: translate3d(0,0,300px);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }
 
 figure.effect-romeo:hover img {
@@ -120,7 +121,6 @@ figure.effect-romeo:hover figcaption::after {
 figure.effect-romeo h2,
 figure.effect-romeo p {
 	position: absolute;
-	top: 50%;
 	left: 0;
 	width: 100%;
 	-webkit-transition: -webkit-transform 0.35s;

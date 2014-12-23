@@ -1,9 +1,11 @@
 @import "../modules/primary-nav-bar/_mobile";
+@import "../modules/welcome-strip/_mobile";
 @import "../modules/feature-grid/_mobile";
 @import "../modules/tool-kit/_mobile";
 
 @media only screen and (min-width: $tablet-breakpoint) {
 	@import "../modules/primary-nav-bar/_tablet";
+	@import "../modules/welcome-strip/_tablet";
 	@import "../modules/feature-grid/_tablet";
 	@import "../modules/tool-kit/_tablet";
 }
