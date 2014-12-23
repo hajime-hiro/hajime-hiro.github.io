@@ -1,4 +1,19 @@
+.header {
+	margin: 0 $main-gutter-width;
+}
+
 .primary-nav {
+	
 	position: absolute;
-	right: 0;
+	right: $main-gutter-width;
+	padding-top: 25px;
+
+	&__item {
+		float: left;
+		padding-right: 25px;
+
+		&--last {
+			padding: 0;
+		}
+	}
 }

@@ -1,20 +1,45 @@
-.logo {
+.header {
+
+	.col {
+		padding: 0;
+	}
+
+	.row {
+		height: 100px;
+	}
+
+	&__logo {
 	
-	float: left;
-	
-	p {
-		background:transparent url(/images/global/logo/hajime-logo.png) no-repeat 1px 1px;
-		width: 220px;
-		height: 35px;
-		text-indent: -999px;
+		float: left;
+		margin-top: 15px;
+		
+		p {
+			background:transparent url(/images/global/logo/hajime-logo.png) no-repeat -1px 1px;
+			width: 220px;
+			height: 35px;
+			text-indent: -999px;
+			margin:0;
+		}
+	}
+
+	&__nav-toggle {
+		float: right;
+		width:60px;
+		height:60px;
+		background-color:red;
 	}
 
 }
 
-.primary-nav-toggle {
-	float: right;
+.primary-nav {
 
-	width:60px;
-	height:60px;
-	background-color:red;
+	&__item {
+
+		text-transform: uppercase;
+
+		a {
+			text-decoration: none;
+			color: #333;
+		}
+	}
 }
