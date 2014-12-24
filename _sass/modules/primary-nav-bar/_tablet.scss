@@ -1,11 +1,11 @@
 .header {
-	padding: 0 $main-gutter-width;
+	padding: 0 $L-gutter-width;
 }
 
 .primary-nav {
 	
 	position: absolute;
-	right: $main-gutter-width;
+	right: $L-gutter-width;
 	padding-top: 25px;
 
 	&__item {

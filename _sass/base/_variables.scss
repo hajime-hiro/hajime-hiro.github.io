@@ -1,27 +1,25 @@
-// ==========================================================================
-// Base – Global Variables
-// ==========================================================================
-
-////
 // Colours
-////
+$C-layout-bleed:	#f1f1f1;
+$C-layout-white: 	#fff;
 
-$bleed:							#f1f1f1;
-$wrapper-main-bg: 	#fff;
+$C-brand-mustard: #A69021;
+$C-brand-red:			#8C141E;
+$C-brand-blue:		#7AA1C8;
 
-$mustard: 					#A69021;
-$red:								#8C141E;
-$blue:							#7AA1C8;
+// Layout
+$L-gutter-width:	50px;
 
-////
-// Dimensions
-////
+// Font Sizes
+$FS-beech:				28px;
 
-$main-gutter-width:	50px;
+// Fonts
+$F-windward: 'Open Sans', sans-serif;
 
-////
-// Below are Base framework variables
-////
+
+
+// ==========================================================================
+// Base Framework – Global Variables
+// ==========================================================================
 
 // Container Defaults
 $mobile-container:   100%;

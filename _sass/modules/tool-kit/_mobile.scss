@@ -1,57 +1,56 @@
 .tk {
 
-	&__bleed-arrow {
-
-		$arrow-size: 40px;
+	&__arrow {
 
 		width: 0; 
 		height: 0; 
 		position: absolute;
 
-		&--down {
-			border-left: $arrow-size solid transparent;
-			border-right: $arrow-size solid transparent;
-			border-top: $arrow-size solid $bleed;
-			bottom: -39px;
-			left: 47%;
+		&--bleed {
+
+			$D-arrow-base: 40px;
+
+			&--down {
+				border-left: $D-arrow-base solid transparent;
+				border-right: $D-arrow-base solid transparent;
+				border-top: $D-arrow-base solid $C-layout-bleed;
+				bottom: -39px;
+				left: 47%;
+			}
 		}
 
-	}
+		&--panel {
 
-	&__panel-arrow {
+			$D-arrow-base: 15px;
+			$C-arrow: $C-layout-white;
 
-		$arrow-size: 15px;
+			border-top: $D-arrow-base solid transparent;
+			border-bottom: $D-arrow-base solid transparent;
 
-		width: 0; 
-		height: 0; 
-		border-top: $arrow-size solid transparent;
-		border-bottom: $arrow-size solid transparent;
-		position: absolute;
-		
+			&--left {	
+				border-right: $D-arrow-base solid $C-arrow;
+				right: 0px;
+			}
 
-		&--left {	
-			border-right: $arrow-size solid $wrapper-main-bg;
-			right: 0px;
-		}
+			&--right {	
+				border-left: $D-arrow-base solid $C-arrow;
+				left: 0px;
+			}
 
-		&--right {	
-			border-left: $arrow-size solid $wrapper-main-bg;
-			left: 0px;
-		}
+			&--down {
+				border-left: $D-arrow-base solid transparent;
+				border-right: $D-arrow-base solid transparent;
+				border-top: $D-arrow-base solid $C-arrow;
+				top:0;
+			}
 
-		&--down {
-			border-left: $arrow-size solid transparent;
-			border-right: $arrow-size solid transparent;
-			border-top: $arrow-size solid $wrapper-main-bg;
-			top:0;
-		}
+			&--top {
+				top: 30px;
+			}
 
-		&--top {
-			top: 30px;
-		}
-
-		&--bottom {
-			bottom: 30px;
+			&--bottom {
+				bottom: 30px;
+			}
 		}
 
 		&--hide-mobile {
