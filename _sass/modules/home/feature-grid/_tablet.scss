@@ -10,6 +10,10 @@
 
 	&__panel {
 
+		&--product {
+			margin-bottom: 0;
+		}
+	
 		&--intro {
 			position: inherit;
 		}
