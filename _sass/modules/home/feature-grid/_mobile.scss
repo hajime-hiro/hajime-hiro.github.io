@@ -7,7 +7,7 @@
 	&__row {
 		&--first {
 			position: relative;
-			padding-top: 100px;
+			padding-top: 200px;
 		}
 	}
 
@@ -75,6 +75,8 @@
 		
 		text-align: center;
 		padding-top: 85px;
+		margin: 0 auto;
+		width: 273px;
 
 		.banner {
 			background-position-x: $S-glyph-intro-x;
