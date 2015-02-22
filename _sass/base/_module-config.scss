@@ -1,5 +1,6 @@
 @import "../modules/primary-nav-bar/_mobile";
 
+@import "../modules/home/hero-banner/_mobile";
 @import "../modules/home/welcome-strip/_mobile";
 @import "../modules/home/feature-grid/_mobile";
 
@@ -8,6 +9,7 @@
 @media only screen and (min-width: $tablet-breakpoint) {
 	@import "../modules/primary-nav-bar/_tablet";
 
+	@import "../modules/home/hero-banner/_tablet";
 	@import "../modules/home/welcome-strip/_tablet";
 	@import "../modules/home/feature-grid/_tablet";
 	
@@ -17,5 +19,6 @@
 @media only screen and (min-width: $desktop-breakpoint) {
 	@import "../modules/primary-nav-bar/_desktop";
 
+	@import "../modules/home/hero-banner/_desktop";
 	@import "../modules/home/feature-grid/_desktop";
 }

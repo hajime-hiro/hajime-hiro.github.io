@@ -1,0 +1,85 @@
+.hero-banner {
+
+	$hero-banner-top-spacing: 100px;
+	$hero-banner-height: 500px;
+
+	$hero-banner-logo-strip-color: #FFFFFF;
+	$hero-banner-logo-strip-height: 66px;
+
+	$hero-banner-text-color: #FFFFFF;
+
+	position: relative;
+	width:100%;
+	height: $hero-banner-height;
+
+	background: transparent url(cdn-image('hero/logs.jpg')) 0 0 no-repeat;
+	background-size: cover;
+
+	&__wrapper {
+		width: 100%;
+		height: $hero-banner-height;
+		padding-top: $hero-banner-top-spacing;
+		// background-color: rgba(59,72,70,0.7);
+	}
+
+	&__logo-strip {
+		background-color: $hero-banner-logo-strip-color;
+		width: 100%;
+		height: $hero-banner-logo-strip-height;
+	}
+
+	&__logo {
+		background: transparent url(cdn-image('hajime-hiro-logo-2.png')) 0 9px no-repeat;
+		margin: 0 auto;
+		text-indent: -999px;
+		width: 230px;
+		height: 100px;
+
+		// These will need tweaking when hi-res logo is added
+		width: 315px;
+		height: 55px;
+		background-size: contain;
+	}
+
+	&__tagline {
+		text-transform: uppercase;
+		color: $hero-banner-text-color;
+		font-family: $F-windward;
+		font-weight: 300;
+		margin: 0 auto;
+		width: 260px;
+		text-align: center;
+		font-size: 23px;
+		letter-spacing: 0.03em;
+		margin-top: 8px;
+	}
+
+	&__arrow {
+		text-decoration: none;
+		width: 53px;
+		height: 53px;
+		line-height: 51px;
+		margin: 0;
+		padding: 0;
+		border-radius: 50%;
+		text-align: center;
+		font-size: 18px;
+		font-weight: normal;
+		color: $hero-banner-text-color;
+		border: 2px $hero-banner-text-color solid;
+		position: absolute;
+		left: 50%;
+		top: 217px;
+		margin-left: -26.5px;
+		outline: 0 !important;
+
+		transition: background-color 0.5s ease;
+
+		&:hover {			
+			background-color: $hero-banner-text-color;
+			color: #000;
+		}
+
+	}
+
+}

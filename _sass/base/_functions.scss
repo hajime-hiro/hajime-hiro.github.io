@@ -1,0 +1,3 @@
+@function cdn-image($path) {
+	@return '//d3d9a89vfjbg95.cloudfront.net/hajime-hiro/assets/images/' + $path 
+}

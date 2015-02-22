@@ -3,6 +3,7 @@
 ---
 
   @import "base/_variables";      // Global Variables
+  @import "base/_functions";      // Functions
   @import "base/_mixins";         // Base Mixins
   @import "base/_resets";         // General Resets
   @import "base/_helpers";        // Custom Base Helpers
@@ -18,6 +19,7 @@
   @import "base/_mobile-grid";    // Mobile Grid
   @import "base/_print";          // Print Page Styles
   @import "base/_hover-effects";  // Hover effects
+  @import "base/_icon-font";      // Icon fonts 
 
   @import "base/_sprite-config";
   @import "base/_svg-icons";
