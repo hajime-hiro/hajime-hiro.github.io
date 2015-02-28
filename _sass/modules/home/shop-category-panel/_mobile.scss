@@ -96,18 +96,4 @@
 
 	}
 
-	&__intro-header {
-		
-		text-align: center;
-		padding-top: 85px;
-		margin: 0 auto;
-		width: 273px;
-
-		.banner__text {
-			background-position-x: $S-glyph-intro-x;
-			background-position-y: $S-glyph-intro-y;
-			height: 42px;
-		}
-	}
-
 }

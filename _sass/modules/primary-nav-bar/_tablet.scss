@@ -5,8 +5,9 @@
 .primary-nav {
 	
 	position: absolute;
+	top: $hero-banner-height;
 	right: $L-gutter-width;
-	padding-top: 25px;
+	padding: 25px 0;
 
 	&__item {
 		float: left;

@@ -16,11 +16,12 @@
 		margin-top: 15px;
 		
 		p {
-			background:transparent url(/images/global/logo/hajime-logo.png) no-repeat -1px 1px;
+			background:transparent url(cdn-image('hajime-hiro-logo-2.png')) no-repeat 0 0;
 			width: 220px;
 			height: 35px;
 			text-indent: -999px;
 			margin:0;
+			background-size: contain;
 		}
 	}
 

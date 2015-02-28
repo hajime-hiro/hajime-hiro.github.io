@@ -1,8 +1,9 @@
 @import "../modules/primary-nav-bar/_mobile";
 
 @import "../modules/home/hero-banner/_mobile";
-@import "../modules/home/welcome-strip/_mobile";
-@import "../modules/home/feature-grid/_mobile";
+@import "../modules/home/shop-category-panel/_mobile";
+@import "../modules/home/welcome-panel/_mobile";
+@import "../modules/home/offer-panel/_mobile";
 
 @import "../modules/tool-kit/_mobile";
 
@@ -10,8 +11,9 @@
 	@import "../modules/primary-nav-bar/_tablet";
 
 	@import "../modules/home/hero-banner/_tablet";
-	@import "../modules/home/welcome-strip/_tablet";
-	@import "../modules/home/feature-grid/_tablet";
+	@import "../modules/home/shop-category-panel/_tablet";
+	@import "../modules/home/welcome-panel/_tablet";
+	@import "../modules/home/offer-panel/_tablet";
 	
 	@import "../modules/tool-kit/_tablet";
 }
@@ -20,5 +22,7 @@
 	@import "../modules/primary-nav-bar/_desktop";
 
 	@import "../modules/home/hero-banner/_desktop";
-	@import "../modules/home/feature-grid/_desktop";
+	@import "../modules/home/shop-category-panel/_desktop";
+	@import "../modules/home/welcome-panel/_desktop";
+	@import "../modules/home/offer-panel/_desktop";
 }

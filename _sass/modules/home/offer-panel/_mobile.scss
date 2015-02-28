@@ -1,0 +1,59 @@
+.offer-panel {
+
+	height: 460px;
+
+	&__title-box {
+		border: 5px #000 solid;
+		width: 160px;
+		margin: 0 auto;
+		margin-top: 130px;
+		text-transform: uppercase;
+		font-family: $F-windward;
+	}
+
+	&__title {
+		letter-spacing: 0.2em;
+		padding: 10px 0;
+		font-weight: bold;
+		margin: 0;
+		text-align: center;
+	}
+
+	&__copy-beta, &__copy-alpha {
+		width: 600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__copy-alpha {
+		font-family: $F-windward;
+		font-weight: bold;
+		font-size: 18px;
+		color: #F56D36;
+		line-height: 1.5em;
+		margin-top: 40px;
+	}
+
+	&__draw-the-eye {
+		width: 274px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	&__draw-the-eye-arrow {
+		font-size: 60px;
+	}
+
+	&__draw-the-eye-text {
+		padding-bottom: 60px;
+		height: 42px;
+		text-indent: 999px;
+		background-position-x: $S-glyph-intro-x;
+		background-position-y: $S-glyph-intro-y;
+		background-image: $S-glyph;
+		background-size: $S-glyph-2x-size;			
+		background-repeat: no-repeat;
+	}
+
+}
